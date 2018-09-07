@@ -1,5 +1,5 @@
-#Fundamentos de Programacion
+# Fundamentos de Programacion
 
-##Contenido
+## Contenido
 
 En este repositorio encontraremos las actividades echas dentro y fuera del salon de clases de la Introduccion a la Programacion
