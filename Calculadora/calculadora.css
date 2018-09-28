@@ -1,5 +1,37 @@
-.contenedor{
-    width: 100px;
+body  {
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contenedor {
+    width: 400px;
     margin: 0 auto;
     background-color: aquamarine;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+
+}
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+    
+}
+input, button {
+    margin-bottom: 10px;
+    background-color: darkgrey;
+    font-size: 20px;
+}
+input {
+    width: 80%;
+}
+button {
+    width: 20%;
+    cursor: pointer;
+}
+#resultado {
+    margin-bottom: 30px;
+    
 }
