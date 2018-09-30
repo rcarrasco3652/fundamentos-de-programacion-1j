@@ -28,3 +28,7 @@
 button {
     cursor: pointer;
 }
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}

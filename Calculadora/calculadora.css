@@ -23,15 +23,23 @@ input, button {
     margin-bottom: 10px;
     background-color: darkgrey;
     font-size: 20px;
+    text-align: center;
 }
 input {
     width: 80%;
 }
-button {
+#sumar, #restar, #multiplicar, #dividir {
     width: 20%;
     cursor: pointer;
+    background-color: tomato;
 }
 #resultado {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     
+}
+#borrar{
+    width: 80%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: orangered;
 }
