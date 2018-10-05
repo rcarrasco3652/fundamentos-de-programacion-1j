@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contenedor1{
+    background-color: aqua;
+    width: 40%;
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;    
+}
+
