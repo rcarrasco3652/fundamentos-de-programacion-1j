@@ -1,0 +1,14 @@
+.contenedor1{
+    text-align: center;
+    margin: 0 auto;
+    background-color: aquamarine;
+    width: 30%;
+    margin-top: 25%;
+}
+table, th, td{
+    border: 1px solid black;
+}
+button, input, table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
