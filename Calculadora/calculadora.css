@@ -5,11 +5,10 @@ body  {
 }
 .contenedor {
     width: 400px;
-    margin: 0 auto;
     background-color: aquamarine;
     box-sizing: border-box;
     border-radius: 20px;
-
+    margin: 0 auto;
 
 }
 h1 {
