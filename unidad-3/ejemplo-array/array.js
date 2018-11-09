@@ -11,6 +11,12 @@
 //a1.shift()  //Elimina el primer valor del array
 //a1.unshift('cualquier', 'cosa', 6)   //Agrega elementos al inicio de un array
 //a2 = a1.slice(1,2,3)    //Sirve para extraer valores de un vector
+var v1 = ['a', 'b', 'c', 'd', 'e', 'f']
+//v1.splice(2,2) //Elimina los valores en la posicion dos 
+//(dos elementos, posicion de los elementos)
+//v1.reverse()//Sirve para voltear los valores de posicion 
+v1.sort()//ordenar los valores alfabeticamente
+v1.indexOf()//Sirve para buscar algun valor  
 
 var numero = document.querySelector('#numero')
 var btn = document.querySelector('#boton')
