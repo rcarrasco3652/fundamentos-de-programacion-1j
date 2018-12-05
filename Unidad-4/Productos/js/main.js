@@ -25,9 +25,9 @@ class Main{
         let nombre = document.querySelector('#nombre').value;
         let cantidad = Number(document.querySelector('#cantidad').value);
         let precioUnitario = Number(document.querySelector('#precioUnit').value );
-        var nuevoProdcuto = new Producto(nombre, cantidad, precioUnitario);
+        var np1 = new Producto(nombre, cantidad, precioUnitario);
 
-        console.log(nuevoProdcuto);
+        console.log(np1);
 
         let tabla=document.querySelector('#tabla')
         var row=tabla.insertRow(-1)
@@ -36,11 +36,12 @@ class Main{
         var cell2=row.insertCell(2)
         var cell3=row.insertCell(3)
         var cell4=row.insertCell(4)
-        cell0.innerHTML+= nombre
-        cell1.innerHTML+= cantidad
-        cell2.innerHTML+= precioUnitario
-        cell3.innerHTML+= nuevoProducto.costoTotalEnPesos()//aun no puedo imprimir el costo total
-        cell4.innerHTML+= nuevoProdcuto.costoTotalEnDolares()
+        cell0.innerHTML+= np1.nombre
+        cell1.innerHTML+= np1.cantidad
+        cell2.innerHTML+= np1.precioUnitario
+        cell3.innerHTML+= np1.costoTotalEnPesos()//aun no puedo imprimir el costo total
+        cell4.innerHTML+= np1.costoTotalEnDolares()
+        console.log(np1.costoTotalEnPesos())
     }
 }
 
