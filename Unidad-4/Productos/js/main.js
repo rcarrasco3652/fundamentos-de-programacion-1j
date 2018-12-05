@@ -44,10 +44,4 @@ class Main{
         console.log(np1.costoTotalEnPesos())
     }
 }
-
 var m = new Main();
-
-document.querySelector('#agregar').addEventListener('click', Agregar)
-function Agregar(){
-   
-}
